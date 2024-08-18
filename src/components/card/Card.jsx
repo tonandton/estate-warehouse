@@ -23,6 +23,7 @@ function Card({ item }) {
         <p className="price">
           {formatPrice} / {item.unit}
         </p>
+        <div className="status">สถานะ / ว่าง</div>
         <div className="bottom">
           <div className="features">
             <div className="feature">
