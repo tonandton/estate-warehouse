@@ -59,7 +59,9 @@ function Chat() {
               />
               John Doe
             </div>
-            <div className="close">X</div>
+            <div className="close" onClick={() => setChat(null)}>
+              X
+            </div>
           </div>
           <div className="center">
             <div className="chatMessage own">
